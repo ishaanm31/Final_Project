@@ -25,14 +25,14 @@ end FSM;
 architecture behave of FSM is
     -------ADD-SUM-------------------------------------------------------------
     type FSM_States   is (S0,S1,S2,S3,S4,S5,S6,S7,S8,S9);
-    signal State : FSM_States;
+    signal State : FSM_States:=S3;
     attribute enum_encoding : string;
     attribute enum_encoding of FSM_States : type is "one-hot";  -- encoding style of the enumerated type
 	signal Flag: std_logic;
 
 begin
     
-process(clock)
+State_Transition : process(reset,State,clock)
     variable next_state: FSM_States;
     variable v_alu_sel: std_logic_vector(1 downto 0);    
     variable v_loop_count_WR,v_loop_sel: std_logic;
@@ -45,7 +45,7 @@ process(clock)
     variable v_ALU_A_sel: std_logic_vector(2 downto 0);
     variable v_ALU_B_sel: std_logic_vector(1 downto 0);
     variable v_T3_sel, v_Mem_Add_Sel, v_Mem_In_Sel: std_logic;
-    variable OP_code :std_logic_vector(3 downto 0);
+    variable OP_code,OP_code1 :std_logic_vector(3 downto 0);
     variable v_LMSM_Imm :std_logic_vector(7 downto 0);
     begin    
         v_loop_count_WR := '0';
@@ -61,10 +61,11 @@ process(clock)
         v_T3_sel:='0';
         v_Mem_Add_Sel:='0';
         v_Mem_In_Sel:='0';
-        OP_code:= Instruc(15 downto 12);
-        v_LMSM_Imm:=Instruc(7 downto 0);
+        OP_code1:= Instruc(15 downto 12);
+        OP_code:= T2_out(15 downto 12);
+        v_LMSM_Imm:=T2_out(7 downto 0);
         v_loop_sel:='0';
-        Flag<= (((not (Instruc(1))) and (not(Instruc(0)))) or (Instruc(1)and C_flag) or (Instruc(0)and Z_flag));
+        Flag<= (((not (T2_out(1))) and (not(T2_out(0)))) or (T2_out(1)and C_flag) or (T2_out(0)and Z_flag));
 
 case State is --  making cases for states 
  
@@ -75,7 +76,7 @@ case State is --  making cases for states
         v_Mem_Add_Sel:='0';
         v_T2_WR:='1';
 
-        if(OP_code="0011") then
+        if(OP_code1="0011") then
             next_state:=S8;
         else next_state:= S1;
         end if;
