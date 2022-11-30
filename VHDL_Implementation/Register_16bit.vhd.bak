@@ -24,7 +24,9 @@ end process;
 ------------------------------------- Read A1 D1---------------------------
 read_process : process(clock)
 begin
- DataOut(15 downto 0) <= Data(15 downto 0);
+  if (clock'event and (clock='1')) then
+    DataOut(15 downto 0) <= Data(15 downto 0);
+  end if;
   ----------------------------------------------------------------------
 end process;
 end struct;

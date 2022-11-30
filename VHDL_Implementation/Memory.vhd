@@ -14,7 +14,7 @@ end entity Memory;
 
 architecture struct of Memory is
     type mem_word   is array (0 to 1000) of std_logic_vector(15 downto 0);
-    signal Data : mem_word;
+	 signal Data : mem_word:=("0000000001010000",others=>"0000000001010000");
 
 begin
 --Instruction Outputs directly given
@@ -30,12 +30,12 @@ write_process : process(Mem_Add, Mem_Data_In, Write_Enable, clock, Data)
   end if;
 end process;
 ------------------------------------- Read Memort---------------------------
-read_process : process(Mem_Add,Data,clock)
+read_process : process(Mem_Add)
 	
 begin
-if (clock'event and (clock='1')) then
+
   Mem_Data_Out <= Data(To_integer(unsigned(Mem_Add)));
- end if;
+
   ----------------------------------------------------------------------
 end process;
 end struct;

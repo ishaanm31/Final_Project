@@ -11,207 +11,209 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Mux16_8x1.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/Mux16_8x1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:15 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Mux16_8x1.vhd 
+# Start time: 12:51:20 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/Mux16_8x1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Mux16_8x1
 # -- Compiling architecture Dataflow of Mux16_8x1
-# End time: 00:35:15 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:20 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Shifter7.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/Shifter7.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:15 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Shifter7.vhd 
+# Start time: 12:51:20 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/Shifter7.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Shifter7
 # -- Compiling architecture struct of Shifter7
-# End time: 00:35:15 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:20 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/SE10.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/SE10.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:15 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/SE10.vhd 
+# Start time: 12:51:20 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/SE10.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity SE10
 # -- Compiling architecture struct of SE10
-# End time: 00:35:15 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:20 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/SE7.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/SE7.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:15 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/SE7.vhd 
+# Start time: 12:51:20 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/SE7.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity SE7
 # -- Compiling architecture struct of SE7
-# End time: 00:35:15 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:20 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Register_file.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/Register_file.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:15 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Register_file.vhd 
+# Start time: 12:51:20 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/Register_file.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Register_file
 # -- Compiling architecture struct of Register_File
-# End time: 00:35:16 on Nov 29,2022, Elapsed time: 0:00:01
+# End time: 12:51:20 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Register_16bit.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/Register_16bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:16 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Register_16bit.vhd 
+# Start time: 12:51:20 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/Register_16bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Register_16bit
 # -- Compiling architecture struct of Register_16bit
-# End time: 00:35:16 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:21 on Nov 30,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Mux16_4x1.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/Mux16_4x1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:16 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Mux16_4x1.vhd 
+# Start time: 12:51:21 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/Mux16_4x1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Mux16_4x1
 # -- Compiling architecture Dataflow of Mux16_4x1
-# End time: 00:35:16 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:21 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Mux16_2x1.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/Mux16_2x1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:16 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Mux16_2x1.vhd 
+# Start time: 12:51:21 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/Mux16_2x1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Mux16_2x1
 # -- Compiling architecture Dataflow of Mux16_2x1
-# End time: 00:35:16 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:21 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Mux3_8x1.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/Mux3_8x1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:16 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Mux3_8x1.vhd 
+# Start time: 12:51:21 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/Mux3_8x1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Mux3_8x1
 # -- Compiling architecture Dataflow of Mux3_8x1
-# End time: 00:35:16 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:21 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Mux3_2x1.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/Mux3_2x1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:16 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Mux3_2x1.vhd 
+# Start time: 12:51:21 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/Mux3_2x1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Mux3_4x1
 # -- Compiling architecture Dataflow1 of Mux3_4x1
-# End time: 00:35:16 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:21 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Memory.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:16 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Memory.vhd 
+# Start time: 12:51:21 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Memory
 # -- Compiling architecture struct of Memory
-# End time: 00:35:16 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:21 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/dff_en.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/dff_en.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:16 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/dff_en.vhd 
+# Start time: 12:51:21 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/dff_en.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity dff_en
 # -- Compiling architecture behave of dff_en
-# End time: 00:35:16 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:21 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/ALU.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/ALU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:16 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/ALU.vhd 
+# Start time: 12:51:21 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/ALU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity ALU
 # -- Compiling architecture behave of ALU
-# End time: 00:35:17 on Nov 29,2022, Elapsed time: 0:00:01
+# End time: 12:51:21 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Datapath.vhdl}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/Datapath.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:17 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Datapath.vhdl 
+# Start time: 12:51:21 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/Datapath.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Datapath
 # -- Compiling architecture Struct of Datapath
-# ** Warning: C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Datapath.vhdl(186): Cannot associate port "DataOut" of mode OUT with port "T2_out" of mode BUFFER.
-# ** Warning: C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/Datapath.vhdl(189): Cannot associate port "DataOut" of mode OUT with port "loop_count" of mode BUFFER.
-# End time: 00:35:17 on Nov 29,2022, Elapsed time: 0:00:00
+# ** Warning: C:/SEM3/Final_Project/VHDL_Implementation/Datapath.vhdl(186): Cannot associate port "DataOut" of mode OUT with port "T2_out" of mode BUFFER.
+# ** Warning: C:/SEM3/Final_Project/VHDL_Implementation/Datapath.vhdl(189): Cannot associate port "DataOut" of mode OUT with port "loop_count" of mode BUFFER.
+# End time: 12:51:21 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 2
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/FSM.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/FSM.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:17 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/FSM.vhd 
+# Start time: 12:51:21 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/FSM.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity FSM
 # -- Compiling architecture behave of FSM
-# End time: 00:35:17 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:22 on Nov 30,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/IITB_CPU.vhd}
+# vcom -93 -work work {C:/SEM3/Final_Project/VHDL_Implementation/IITB_CPU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:35:17 on Nov 29,2022
-# vcom -reportprogress 300 -93 -work work C:/SEM3/VHDL Github/IITB_CPU/VHDL_Implementation/IITB_CPU.vhd 
+# Start time: 12:51:22 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/SEM3/Final_Project/VHDL_Implementation/IITB_CPU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity IITB_CPU
 # -- Compiling architecture arch of IITB_CPU
-# End time: 00:35:17 on Nov 29,2022, Elapsed time: 0:00:00
+# End time: 12:51:22 on Nov 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vsim work.datapath
-# vsim work.datapath 
-# Start time: 00:35:34 on Nov 29,2022
+vsim work.iitb_cpu
+# vsim work.iitb_cpu 
+# Start time: 12:51:24 on Nov 30,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading work.iitb_cpu(arch)
+# Loading work.fsm(behave)
 # Loading work.datapath(struct)
 # Loading work.register_16bit(struct)
 # Loading work.mux16_2x1(dataflow)
@@ -226,5 +228,65 @@ vsim work.datapath
 # Loading work.mux16_4x1(dataflow)
 # Loading work.dff_en(behave)
 # Loading work.memory(struct)
-# End time: 00:38:11 on Nov 29,2022, Elapsed time: 0:02:37
-# Errors: 0, Warnings: 0
+add wave -position insertpoint  \
+sim:/iitb_cpu/clock \
+sim:/iitb_cpu/Reset \
+sim:/iitb_cpu/Mem_Ext_WR \
+sim:/iitb_cpu/S_instruc
+add wave -position insertpoint  \
+sim:/iitb_cpu/S_T2_out
+add wave -position insertpoint  \
+sim:/iitb_cpu/My_Datapath/T2/DataIn \
+sim:/iitb_cpu/My_Datapath/T2/Data
+add wave -position insertpoint  \
+sim:/iitb_cpu/My_Datapath/T2/DataIn \
+sim:/iitb_cpu/My_Datapath/T2/Data
+add wave -position insertpoint  \
+sim:/iitb_cpu/My_Datapath/T2/DataOut
+add wave -position insertpoint  \
+sim:/iitb_cpu/My_Datapath/T1/DataOut
+add wave -position insertpoint  \
+sim:/iitb_cpu/My_Datapath/T3/DataOut
+add wave -position insertpoint  \
+sim:/iitb_cpu/My_Datapath/T4/DataOut
+add wave -position insertpoint  \
+sim:/iitb_cpu/My_Datapath/T4/DataOut
+add wave -position insertpoint  \
+sim:/iitb_cpu/My_Datapath/Reg_File/Data
+add wave -position insertpoint  \
+sim:/iitb_cpu/My_Datapath/Reg_File/Data
+add wave -position insertpoint  \
+sim:/iitb_cpu/My_FSM/State
+add wave -position insertpoint  \
+sim:/iitb_cpu/My_Datapath/Reg_File/A1 \
+sim:/iitb_cpu/My_Datapath/Reg_File/A2 \
+sim:/iitb_cpu/My_Datapath/Reg_File/A3 \
+sim:/iitb_cpu/My_Datapath/Reg_File/D3 \
+sim:/iitb_cpu/My_Datapath/Reg_File/PC \
+sim:/iitb_cpu/My_Datapath/Reg_File/clock \
+sim:/iitb_cpu/My_Datapath/Reg_File/Write_Enable \
+sim:/iitb_cpu/My_Datapath/Reg_File/D1 \
+sim:/iitb_cpu/My_Datapath/Reg_File/D2 \
+sim:/iitb_cpu/My_Datapath/Reg_File/Data
+
+force -freeze sim:/iitb_cpu/clock 1 0, 0 {50 ps} -r 100
+force -freeze sim:/iitb_cpu/Reset 0 0
+force -freeze sim:/iitb_cpu/Mem_Ext_WR 0 0
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /iitb_cpu/My_Datapath/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /iitb_cpu/My_Datapath/Reg_File
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /iitb_cpu/My_Datapath/Reg_File
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /iitb_cpu/My_Datapath/Reg_File
+# ** Fatal: (vsim-3734) Index value 1001 is out of range 0 to 1000.
+#    Time: 500450 ps  Iteration: 3  Process: /iitb_cpu/My_Datapath/mem/line__21 File: C:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd
+# Fatal error in Architecture struct at C:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd line 21
+# 
+# HDL call sequence:
+# Stopped at C:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd 21 Architecture struct
+# 
+# End time: 12:53:54 on Nov 30,2022, Elapsed time: 0:02:30
+# Errors: 1, Warnings: 4
