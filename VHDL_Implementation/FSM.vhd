@@ -62,7 +62,7 @@ process(clock)
         v_Mem_Add_Sel:='0';
         v_Mem_In_Sel:='0';
         OP_code:= Instruc(15 downto 12);
-        v_LMSM_Imm:=T2_out(7 downto 0);
+        v_LMSM_Imm:=Instruc(7 downto 0);
         v_loop_sel:='0';
         Flag<= (((not (Instruc(1))) and (not(Instruc(0)))) or (Instruc(1)and C_flag) or (Instruc(0)and Z_flag));
 
