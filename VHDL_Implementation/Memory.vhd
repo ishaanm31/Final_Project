@@ -14,7 +14,9 @@ end entity Memory;
 
 architecture struct of Memory is
     type mem_word   is array (0 to 1000) of std_logic_vector(15 downto 0);
-	 signal Data : mem_word:=("0101010011000001",others=>"0000000000000000");
+	 signal Data : mem_word:=("0011001000000000","0011010000000001","0000001010011000",
+						"0000010011100000","0000011100101000","0000100101110000","0000101110111000", 
+							others=>"0000000000000000");
 
 begin
 --Instruction Outputs directly given
