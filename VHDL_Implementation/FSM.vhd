@@ -28,6 +28,7 @@ architecture behave of FSM is
     signal State : FSM_States;
     attribute enum_encoding : string;
     attribute enum_encoding of FSM_States : type is "one-hot";  -- encoding style of the enumerated type
+	 signal Flag: std_logic;
 
 begin
     
@@ -46,7 +47,6 @@ process(clock)
     variable v_T3_sel, v_Mem_Add_Sel, v_Mem_In_Sel: std_logic;
     variable OP_code :std_logic_vector(3 downto 0);
     variable v_LMSM_Imm :std_logic_vector(7 downto 0);
-    variable Flag: std_logic;
     begin    
         v_loop_count_WR := '0';
         v_alu_sel:="00";
@@ -64,7 +64,7 @@ process(clock)
         OP_code:= Instruc(15 downto 12);
         v_LMSM_Imm:=T2_out(7 downto 0);
         v_loop_sel:='0';
-        Flag:= (((not (T2_out(1))) and (not(T2_out(0)))) or (T2_out(1)and C_flag) or (T2_out(0)and Z_flag));
+        Flag<= (((not (Instruc(1))) and (not(Instruc(0)))) or (Instruc(1)and C_flag) or (Instruc(0)and Z_flag));
 
 case State is --  making cases for states 
  

@@ -26,7 +26,7 @@ entity Datapath is
         --External Memory Updating Pins
         Mem_Ext_WR :in std_logic;
         Mem_Ext_Data_in,Mem_Ext_Add : in std_logic_vector(15 downto 0);
-        instruc:out std_logic_vector(15 downto 0)
+        instruc:buffer std_logic_vector(15 downto 0)
 		);
 end Datapath;
 
@@ -176,7 +176,7 @@ architecture Struct of Datapath is
     signal T2_SE10_out: std_logic_vector(15 downto 0);
     signal T2_7Shift_out: std_logic_vector(15 downto 0);
 
-    --Signals for memory:
+ --Signals for memory:
     signal mem_add,mem_add_internal,mem_in_internal,mem_out,mem_in : std_logic_vector(15 downto 0);
     signal mem_WR: std_logic;
     
@@ -195,16 +195,16 @@ begin
 --Register File Instantiate
     Reg_File: Register_file port map (A1, A2, A3, D3, clock, Reg_file_EN, PC, D1, D2);
 --A2 needs no Mux, it has only one input
-    A2 <= T2_out(8 downto 6);
+    A2 <= instruc(8 downto 6);
 
 --Muxes for input to Register File
 
-    A1_Mux: Mux3_4x1 port map(loop_count(2 downto 0), "111",T2_out(11 downto 9) ,"000",A1_sel, A1);
+    A1_Mux: Mux3_4x1 port map(loop_count(2 downto 0), "111",instruc(11 downto 9) ,"000",A1_sel, A1);
     -- 00-> Loop Counter. Used for LM and SM Instruction
     -- 01-> Gives out Program Counter (R7) to RF_D1
     -- 10-> Gives out RA
     -- 11-> Don't Care condition
-    A3_Mux: Mux3_8x1 port map (T2_out(5 downto 3),T2_out(8 downto 6),T2_out(11 downto 9),loop_count(2 downto 0),
+    A3_Mux: Mux3_8x1 port map (instruc(5 downto 3),instruc(8 downto 6),instruc(11 downto 9),loop_count(2 downto 0),
                                "111","111","111","111",A3_sel,A3);
     -- 00-> Gives rb to RF_D2
     -- 01-> Gives out Program Counter (R7) to RF_D1
@@ -213,9 +213,9 @@ begin
     D3_Mux: Mux16_8x1 port map(T1_out,T4_out,mem_out,T3_out,T2_SE7_out,
                                 alu_c,T2_7Shift_out,"0000000000000000",D3_sel,D3);
 --Signed Extended signals of intructio(T2)
-    T2_SE7  : SE7 port map(T2_out(8 downto 0),T2_SE7_out(15 downto 0))  ;
-    T2_SE10 : SE10 port map(T2_out(5 downto 0),T2_SE10_out(15 downto 0));
-    T2_shift: Shifter7 port map(T2_out(8 downto 0),T2_7Shift_out(15 downto 0));
+    T2_SE7  : SE7 port map(instruc(8 downto 0),T2_SE7_out(15 downto 0))  ;
+    T2_SE10 : SE10 port map(instruc(5 downto 0),T2_SE10_out(15 downto 0));
+    T2_shift: Shifter7 port map(instruc(8 downto 0),T2_7Shift_out(15 downto 0));
 --Components for ALU
     alu1 : ALU port map (ALU_A => alu_a, ALU_B => alu_b, ALU_C => alu_c, C_F => carry_dff_inp, Z_F => zero_dff_inp, sel => alu_sel);
     
