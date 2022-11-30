@@ -132,13 +132,12 @@ begin
         loop_count_WR=> S_loop_count_WR,
         ALU_A_sel=> S_ALU_A_sel,
         ALU_B_sel=> S_ALU_B_sel,
+        loop_sel=>S_loop_sel,
+        instruc=>S_instruc,
         T3_sel=>S_T3_sel , Mem_Add_Sel=> S_Mem_Add_Sel, Mem_In_Sel=>S_Mem_In_Sel,
-        --Outputs for testing
         --Input pins for memory control
         Mem_Ext_WR=>Mem_Ext_WR,
         Mem_Ext_Data_in=> Mem_Ext_Data_in,
-        Mem_Ext_Add =>Mem_Ext_Add,
-        loop_sel=>S_loop_sel,
-        instruc=>S_instruc
+        Mem_Ext_Add =>Mem_Ext_Add
     );
 end architecture arch;

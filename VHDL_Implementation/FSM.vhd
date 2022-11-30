@@ -23,17 +23,24 @@ end FSM;
 
 
 architecture behave of FSM is
-    -------ADD-SUM-------------------------------------------------------------
+    --Defining States which we will be using
     type FSM_States   is (S0,S1,S2,S3,S4,S5,S6,S7,S8,S9);
-    signal State : FSM_States:=S3;
+    --initializing to S3 as it will directly go to S0 and our machine will start from S0
+    signal State : FSM_States:=S3; 
+    --Using one hot encoding as we only have 10 States and will use only 10 DFF(i.e. less)
+    --And our State transition will have less logic gates saving power, hardware and delay              (P.S. I googled how to do one hot encoding in vhdl)
     attribute enum_encoding : string;
-    attribute enum_encoding of FSM_States : type is "one-hot";  -- encoding style of the enumerated type
+    attribute enum_encoding of FSM_States : type is "one-hot";
+    --Flag signal which checks the condition for CZ of Intruction and C and Z flags
 	signal Flag: std_logic;
+    --If Flag is 1 then only the operation(ADD and NAND) will be executed
 
 begin
     
 State_Transition : process(reset,State,clock)
     variable next_state: FSM_States;
+    --process variables which will be assigned to the actual ones at the end.
+    --If we use our orginal signal then it might get changed multiple times during the process
     variable v_alu_sel: std_logic_vector(1 downto 0);    
     variable v_loop_count_WR,v_loop_sel: std_logic;
     variable v_A1_sel : std_logic_vector(1 downto 0);
@@ -48,6 +55,8 @@ State_Transition : process(reset,State,clock)
     variable OP_code,OP_code1 :std_logic_vector(3 downto 0);
     variable v_LMSM_Imm :std_logic_vector(7 downto 0);
     begin    
+        --Assigning all zeros and according to the state, it will be changed to a non zero value 
+        --Most states only require some control variables, so defining them for every state is boring
         v_loop_count_WR := '0';
         v_alu_sel:="00";
         v_A1_sel:="00"; v_A3_sel:="000"; v_D3_sel:="000";
@@ -65,6 +74,7 @@ State_Transition : process(reset,State,clock)
         OP_code:= T2_out(15 downto 12);
         v_LMSM_Imm:=T2_out(7 downto 0);
         v_loop_sel:='0';
+        --Boolean Expression for Flag. T2(1) is C and T2(0) is Z form the instruction
         Flag<= (((not (T2_out(1))) and (not(T2_out(0)))) or (T2_out(1)and C_flag) or (T2_out(0)and Z_flag));
 
 case State is --  making cases for states 
