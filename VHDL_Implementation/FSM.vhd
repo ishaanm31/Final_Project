@@ -28,7 +28,7 @@ architecture behave of FSM is
     signal State : FSM_States;
     attribute enum_encoding : string;
     attribute enum_encoding of FSM_States : type is "one-hot";  -- encoding style of the enumerated type
-	 signal Flag: std_logic;
+	signal Flag: std_logic;
 
 begin
     

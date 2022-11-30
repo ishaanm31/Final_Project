@@ -24,9 +24,9 @@ VzffPA:U@z_9<jTG@CE5`M1
 !s100 1LV``=KiA;1XK20oB[hZ41
 Z7 OV;C;2020.1;71
 31
-Z8 !s110 1669804544
+Z8 !s110 1669805207
 !i10b 1
-Z9 !s108 1669804543.000000
+Z9 !s108 1669805207.000000
 Z10 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/ALU.vhd|
 Z11 !s107 C:/SEM3/Final_Project/VHDL_Implementation/ALU.vhd|
 !i113 1
@@ -69,9 +69,9 @@ R7
 31
 R8
 !i10b 1
-Z17 !s108 1669804544.000000
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Datapath.vhdl|
-Z19 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Datapath.vhdl|
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Datapath.vhdl|
+Z18 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Datapath.vhdl|
 !i113 1
 R12
 R13
@@ -89,9 +89,9 @@ R7
 31
 R8
 !i10b 1
+R9
 R17
 R18
-R19
 !i113 1
 R12
 R13
@@ -101,19 +101,19 @@ R3
 R4
 !i122 11
 R0
-Z20 8C:/SEM3/Final_Project/VHDL_Implementation/dff_en.vhd
-Z21 FC:/SEM3/Final_Project/VHDL_Implementation/dff_en.vhd
+Z19 8C:/SEM3/Final_Project/VHDL_Implementation/dff_en.vhd
+Z20 FC:/SEM3/Final_Project/VHDL_Implementation/dff_en.vhd
 l0
 L3 1
 VS@FnW7bH9P2HbV3;ZXCmI3
 !s100 l9gC@LIoi_n83HaDMd>o93
 R7
 31
-Z22 !s110 1669804543
+R8
 !i10b 1
 R9
-Z23 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/dff_en.vhd|
-Z24 !s107 C:/SEM3/Final_Project/VHDL_Implementation/dff_en.vhd|
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/dff_en.vhd|
+Z22 !s107 C:/SEM3/Final_Project/VHDL_Implementation/dff_en.vhd|
 !i113 1
 R12
 R13
@@ -128,23 +128,23 @@ VkecbAB3SBD0^jzm5YEo6J1
 !s100 _jKBL9M[ElY>901m5?]kT3
 R7
 31
-R22
+R8
 !i10b 1
 R9
-R23
-R24
+R21
+R22
 !i113 1
 R12
 R13
 Efsm
-Z25 w1669803325
+Z23 w1669803325
 R2
 R3
 R4
 !i122 14
 R0
-Z26 8C:/SEM3/Final_Project/VHDL_Implementation/FSM.vhd
-Z27 FC:/SEM3/Final_Project/VHDL_Implementation/FSM.vhd
+Z24 8C:/SEM3/Final_Project/VHDL_Implementation/FSM.vhd
+Z25 FC:/SEM3/Final_Project/VHDL_Implementation/FSM.vhd
 l0
 L5 1
 V:TkYhifNd`P<m?fPMfj]B0
@@ -153,9 +153,9 @@ R7
 31
 R8
 !i10b 1
-R17
-Z28 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/FSM.vhd|
-Z29 !s107 C:/SEM3/Final_Project/VHDL_Implementation/FSM.vhd|
+R9
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/FSM.vhd|
+Z27 !s107 C:/SEM3/Final_Project/VHDL_Implementation/FSM.vhd|
 !i113 1
 R12
 R13
@@ -173,9 +173,9 @@ R7
 31
 R8
 !i10b 1
-R17
-R28
-R29
+R9
+R26
+R27
 !i113 1
 R12
 R13
@@ -186,18 +186,18 @@ R3
 R4
 !i122 15
 R0
-Z30 8C:/SEM3/Final_Project/VHDL_Implementation/IITB_CPU.vhd
-Z31 FC:/SEM3/Final_Project/VHDL_Implementation/IITB_CPU.vhd
+Z28 8C:/SEM3/Final_Project/VHDL_Implementation/IITB_CPU.vhd
+Z29 FC:/SEM3/Final_Project/VHDL_Implementation/IITB_CPU.vhd
 l0
 L5 1
 VgWB;G1^V]2GI=GGld<B700
 !s100 W8Y<bn:=fEANiJU@<QQ7Q0
 R7
 31
-R8
+Z30 !s110 1669805208
 !i10b 1
-R17
-Z32 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/IITB_CPU.vhd|
+R9
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/IITB_CPU.vhd|
 !s107 C:/SEM3/Final_Project/VHDL_Implementation/IITB_CPU.vhd|
 !i113 1
 R12
@@ -214,34 +214,34 @@ V3m>C2C`jNZ0Gjehn6bBH62
 !s100 7b;6^S8HkZA6HSabI0IRe0
 R7
 31
-R8
+R30
 !i10b 1
-R17
-R32
-Z33 !s107 C:/SEM3/Final_Project/VHDL_Implementation/IITB_CPU.vhd|
+R9
+R31
+Z32 !s107 C:/SEM3/Final_Project/VHDL_Implementation/IITB_CPU.vhd|
 !i113 1
 R12
 R13
 Ememory
-Z34 w1669804514
+Z33 w1669805071
 R2
 R3
 R4
 !i122 10
 R0
-Z35 8C:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd
-Z36 FC:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd
+Z34 8C:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd
+Z35 FC:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd
 l0
 L5 1
 V09Y9Y^iO8WB7>kF@iZ:>C1
 !s100 cnRYX=F]L7@CE4_d32H3U1
 R7
 31
-R22
+R8
 !i10b 1
 R9
-Z37 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd|
-Z38 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd|
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd|
+Z37 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Memory.vhd|
 !i113 1
 R12
 R13
@@ -253,15 +253,15 @@ DEx4 work 6 memory 0 22 09Y9Y^iO8WB7>kF@iZ:>C1
 !i122 10
 l19
 L15 27
-V7>kON5eijk=^d;5mTJ:>o1
-!s100 fkH@YhYoK_5zKXomgN1GU1
+V6jiimoN7LORG[911Ti;A;3
+!s100 4?;eL3KYkQ8>[G5bT?:N72
 R7
 31
-R22
+R8
 !i10b 1
 R9
+R36
 R37
-R38
 !i113 1
 R12
 R13
@@ -272,19 +272,19 @@ R3
 R4
 !i122 7
 R0
-Z39 8C:/SEM3/Final_Project/VHDL_Implementation/Mux16_2x1.vhd
-Z40 FC:/SEM3/Final_Project/VHDL_Implementation/Mux16_2x1.vhd
+Z38 8C:/SEM3/Final_Project/VHDL_Implementation/Mux16_2x1.vhd
+Z39 FC:/SEM3/Final_Project/VHDL_Implementation/Mux16_2x1.vhd
 l0
 L4 1
 VTB=3g4HKPzGZ5SF:SKXjX2
 !s100 =Pg7@AgI^A=cHCO2`aUnm3
 R7
 31
-R22
+Z40 !s110 1669805206
 !i10b 1
-R9
-Z41 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Mux16_2x1.vhd|
-Z42 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Mux16_2x1.vhd|
+Z41 !s108 1669805206.000000
+Z42 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Mux16_2x1.vhd|
+Z43 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Mux16_2x1.vhd|
 !i113 1
 R12
 R13
@@ -300,11 +300,11 @@ V6Um0]=QgXzleHJjmIzo4g0
 !s100 1O7I5cn<:MVBHI[^X=Q6W0
 R7
 31
-R22
+R40
 !i10b 1
-R9
 R41
 R42
+R43
 !i113 1
 R12
 R13
@@ -315,19 +315,19 @@ R3
 R4
 !i122 6
 R0
-Z43 8C:/SEM3/Final_Project/VHDL_Implementation/Mux16_4x1.vhd
-Z44 FC:/SEM3/Final_Project/VHDL_Implementation/Mux16_4x1.vhd
+Z44 8C:/SEM3/Final_Project/VHDL_Implementation/Mux16_4x1.vhd
+Z45 FC:/SEM3/Final_Project/VHDL_Implementation/Mux16_4x1.vhd
 l0
 L4 1
 VIJgA;^`XegWCTCHTS<>E22
 !s100 PKWFk_40AAE@MTon[k8ED2
 R7
 31
-R22
+R40
 !i10b 1
-R9
-Z45 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Mux16_4x1.vhd|
-Z46 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Mux16_4x1.vhd|
+R41
+Z46 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Mux16_4x1.vhd|
+Z47 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Mux16_4x1.vhd|
 !i113 1
 R12
 R13
@@ -338,16 +338,16 @@ R4
 DEx4 work 9 mux16_4x1 0 22 IJgA;^`XegWCTCHTS<>E22
 !i122 6
 l13
-Z47 L12 18
+Z48 L12 18
 Vo9X4RRliOcn:m4c42mN9J2
 !s100 RWTk0Q7MA1:Bbn3i5NKPg0
 R7
 31
-R22
+R40
 !i10b 1
-R9
-R45
+R41
 R46
+R47
 !i113 1
 R12
 R13
@@ -358,19 +358,19 @@ R3
 R4
 !i122 0
 R0
-Z48 8C:/SEM3/Final_Project/VHDL_Implementation/Mux16_8x1.vhd
-Z49 FC:/SEM3/Final_Project/VHDL_Implementation/Mux16_8x1.vhd
+Z49 8C:/SEM3/Final_Project/VHDL_Implementation/Mux16_8x1.vhd
+Z50 FC:/SEM3/Final_Project/VHDL_Implementation/Mux16_8x1.vhd
 l0
 L5 1
 V]b]AK`jTz<K6O1clL0A`82
 !s100 j^1`OlH=PJHBFz_8KT6GL0
 R7
 31
-Z50 !s110 1669804542
+R40
 !i10b 1
-Z51 !s108 1669804542.000000
-Z52 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Mux16_8x1.vhd|
-Z53 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Mux16_8x1.vhd|
+R41
+Z51 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Mux16_8x1.vhd|
+Z52 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Mux16_8x1.vhd|
 !i113 1
 R12
 R13
@@ -386,11 +386,11 @@ VbTnk0Oco4@o=T>JSk6@4a2
 !s100 e8EU:INOW3^RLG66R5GWa2
 R7
 31
-R50
+R40
 !i10b 1
+R41
 R51
 R52
-R53
 !i113 1
 R12
 R13
@@ -401,19 +401,19 @@ R3
 R4
 !i122 9
 R0
-Z54 8C:/SEM3/Final_Project/VHDL_Implementation/Mux3_2x1.vhd
-Z55 FC:/SEM3/Final_Project/VHDL_Implementation/Mux3_2x1.vhd
+Z53 8C:/SEM3/Final_Project/VHDL_Implementation/Mux3_2x1.vhd
+Z54 FC:/SEM3/Final_Project/VHDL_Implementation/Mux3_2x1.vhd
 l0
 L4 1
 VmjUCim]IlZKFiMYTUD?5n2
 !s100 faN6;;dOJ62bgm6X]b_080
 R7
 31
-R22
+R8
 !i10b 1
 R9
-Z56 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Mux3_2x1.vhd|
-Z57 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Mux3_2x1.vhd|
+Z55 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Mux3_2x1.vhd|
+Z56 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Mux3_2x1.vhd|
 !i113 1
 R12
 R13
@@ -424,16 +424,16 @@ R4
 DEx4 work 8 mux3_4x1 0 22 mjUCim]IlZKFiMYTUD?5n2
 !i122 9
 l13
-R47
+R48
 VT3PC8h^XV_hIdocFX0G;?0
 !s100 dz:@M[>CU58k`9kk1R8VN3
 R7
 31
-R22
+R8
 !i10b 1
 R9
+R55
 R56
-R57
 !i113 1
 R12
 R13
@@ -444,19 +444,19 @@ R3
 R4
 !i122 8
 R0
-Z58 8C:/SEM3/Final_Project/VHDL_Implementation/Mux3_8x1.vhd
-Z59 FC:/SEM3/Final_Project/VHDL_Implementation/Mux3_8x1.vhd
+Z57 8C:/SEM3/Final_Project/VHDL_Implementation/Mux3_8x1.vhd
+Z58 FC:/SEM3/Final_Project/VHDL_Implementation/Mux3_8x1.vhd
 l0
 L4 1
 VGCNid?Ac`]CGWQIbmf@[Z0
 !s100 R]S>M3F?=F<ONV3[b91>:2
 R7
 31
-R22
+R8
 !i10b 1
 R9
-Z60 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Mux3_8x1.vhd|
-Z61 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Mux3_8x1.vhd|
+Z59 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Mux3_8x1.vhd|
+Z60 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Mux3_8x1.vhd|
 !i113 1
 R12
 R13
@@ -472,34 +472,34 @@ VJ=2EhM[VA>H<9;KgJZPVe0
 !s100 RGJ`Zj9i5F;KYgg?A578C2
 R7
 31
-R22
+R8
 !i10b 1
 R9
+R59
 R60
-R61
 !i113 1
 R12
 R13
 Eregister_16bit
-Z62 w1669792437
+Z61 w1669792437
 R2
 R3
 R4
 !i122 5
 R0
-Z63 8C:/SEM3/Final_Project/VHDL_Implementation/Register_16bit.vhd
-Z64 FC:/SEM3/Final_Project/VHDL_Implementation/Register_16bit.vhd
+Z62 8C:/SEM3/Final_Project/VHDL_Implementation/Register_16bit.vhd
+Z63 FC:/SEM3/Final_Project/VHDL_Implementation/Register_16bit.vhd
 l0
 L5 1
 VXR:<iM=D`Q9k3jdd9VShW1
 !s100 R80AB<[K6bIUYGWNze_Cb1
 R7
 31
-R22
+R40
 !i10b 1
-R9
-Z65 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Register_16bit.vhd|
-Z66 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Register_16bit.vhd|
+R41
+Z64 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Register_16bit.vhd|
+Z65 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Register_16bit.vhd|
 !i113 1
 R12
 R13
@@ -515,34 +515,34 @@ V=MV3?WLcYgUna=?67Gf<E2
 !s100 @zR?HQ8JA^_2e?HPTbAAn3
 R7
 31
-R22
+R40
 !i10b 1
-R9
+R41
+R64
 R65
-R66
 !i113 1
 R12
 R13
 Eregister_file
-Z67 w1669804415
+Z66 w1669804934
 R2
 R3
 R4
 !i122 4
 R0
-Z68 8C:/SEM3/Final_Project/VHDL_Implementation/Register_file.vhd
-Z69 FC:/SEM3/Final_Project/VHDL_Implementation/Register_file.vhd
+Z67 8C:/SEM3/Final_Project/VHDL_Implementation/Register_file.vhd
+Z68 FC:/SEM3/Final_Project/VHDL_Implementation/Register_file.vhd
 l0
 L5 1
 V;V;DZDf7<R^;I3VidEcaU1
 !s100 ^^lVM1RXXU5R1l]O[E;>g2
 R7
 31
-R22
+R40
 !i10b 1
-R51
-Z70 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Register_file.vhd|
-Z71 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Register_file.vhd|
+R41
+Z69 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Register_file.vhd|
+Z70 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Register_file.vhd|
 !i113 1
 R12
 R13
@@ -554,15 +554,15 @@ DEx4 work 13 register_file 0 22 ;V;DZDf7<R^;I3VidEcaU1
 !i122 4
 l17
 L13 27
-VmFVlA;N<Ph@6:GnUK^6Df2
-!s100 PHOz^11VSePT66f@hgHkV1
+V7NodOOTWd>_]fBCaE=KDC2
+!s100 d?QT?:IEJ>cEaM:dPl91n1
 R7
 31
-R22
+R40
 !i10b 1
-R51
+R41
+R69
 R70
-R71
 !i113 1
 R12
 R13
@@ -573,19 +573,19 @@ R3
 R4
 !i122 2
 R0
-Z72 8C:/SEM3/Final_Project/VHDL_Implementation/SE10.vhd
-Z73 FC:/SEM3/Final_Project/VHDL_Implementation/SE10.vhd
+Z71 8C:/SEM3/Final_Project/VHDL_Implementation/SE10.vhd
+Z72 FC:/SEM3/Final_Project/VHDL_Implementation/SE10.vhd
 l0
 L4 1
 V?BobD5;=:<iQAKi:k5k[53
 !s100 3EC7YP?=?AEJ;k]NKGgI:0
 R7
 31
-R50
+R40
 !i10b 1
-R51
-Z74 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/SE10.vhd|
-Z75 !s107 C:/SEM3/Final_Project/VHDL_Implementation/SE10.vhd|
+R41
+Z73 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/SE10.vhd|
+Z74 !s107 C:/SEM3/Final_Project/VHDL_Implementation/SE10.vhd|
 !i113 1
 R12
 R13
@@ -601,11 +601,11 @@ VW_LR3Lz8<2hMWLU_ZQEbY3
 !s100 zko8P:jz44Xl>FV8Fe`7b2
 R7
 31
-R50
+R40
 !i10b 1
-R51
+R41
+R73
 R74
-R75
 !i113 1
 R12
 R13
@@ -616,19 +616,19 @@ R3
 R4
 !i122 3
 R0
-Z76 8C:/SEM3/Final_Project/VHDL_Implementation/SE7.vhd
-Z77 FC:/SEM3/Final_Project/VHDL_Implementation/SE7.vhd
+Z75 8C:/SEM3/Final_Project/VHDL_Implementation/SE7.vhd
+Z76 FC:/SEM3/Final_Project/VHDL_Implementation/SE7.vhd
 l0
 L5 1
 V]6`e`;5Q[F_Eda9a=Pbl[3
 !s100 ;VBd0TKHQe2mB0o@MEl[W1
 R7
 31
-R50
+R40
 !i10b 1
-R51
-Z78 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/SE7.vhd|
-Z79 !s107 C:/SEM3/Final_Project/VHDL_Implementation/SE7.vhd|
+R41
+Z77 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/SE7.vhd|
+Z78 !s107 C:/SEM3/Final_Project/VHDL_Implementation/SE7.vhd|
 !i113 1
 R12
 R13
@@ -639,16 +639,16 @@ R4
 DEx4 work 3 se7 0 22 ]6`e`;5Q[F_Eda9a=Pbl[3
 !i122 3
 l11
-Z80 L10 8
+Z79 L10 8
 V[92@=hEE3N4Gi1jiT3Dzo1
 !s100 o6H92A2AXXAWJ=7PTbE_z3
 R7
 31
-R50
+R40
 !i10b 1
-R51
+R41
+R77
 R78
-R79
 !i113 1
 R12
 R13
@@ -659,19 +659,19 @@ R3
 R4
 !i122 1
 R0
-Z81 8C:/SEM3/Final_Project/VHDL_Implementation/Shifter7.vhd
-Z82 FC:/SEM3/Final_Project/VHDL_Implementation/Shifter7.vhd
+Z80 8C:/SEM3/Final_Project/VHDL_Implementation/Shifter7.vhd
+Z81 FC:/SEM3/Final_Project/VHDL_Implementation/Shifter7.vhd
 l0
 L5 1
 VYh2ZMg]ZNXz80o3gMknE02
 !s100 QfGfQG^U<TOUBfl?JgP3]2
 R7
 31
-R50
+R40
 !i10b 1
-R51
-Z83 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Shifter7.vhd|
-Z84 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Shifter7.vhd|
+R41
+Z82 !s90 -reportprogress|300|-93|-work|work|C:/SEM3/Final_Project/VHDL_Implementation/Shifter7.vhd|
+Z83 !s107 C:/SEM3/Final_Project/VHDL_Implementation/Shifter7.vhd|
 !i113 1
 R12
 R13
@@ -682,16 +682,16 @@ R4
 DEx4 work 8 shifter7 0 22 Yh2ZMg]ZNXz80o3gMknE02
 !i122 1
 l11
-R80
+R79
 VWU^3oHc`1nISaVJ76O2Qm2
 !s100 gQo?clKDf2>NDZ=6ea7l<3
 R7
 31
-R50
+R40
 !i10b 1
-R51
+R41
+R82
 R83
-R84
 !i113 1
 R12
 R13
